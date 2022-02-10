@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jogo da Velha</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+    href="https://fonts.googleapis.com/css?family=Montserrat"
+    rel="stylesheet"
+    />
+
+  </head>
+
+  <body>
+
+    <div id="menu" class="menu">
+  
+      <h1>Jogo da Velha</h1>
+  
+      <div class="menu-button-container">
+  
+        <p>Escolha seu modo de jogo:</p>
+  
+        <button class="menu-button" onclick="start('2p')">2 jogadores</button>
+
+        <button class="menu-button" onclick="start('cpu')">Computador</button>
+        
+      </div>
+  
+    </div>
+
+    <div id="game" class="game">
+
+      <h1>Jogo da Velha</h1>
+
+      <div class="row">
+        
+        <button id="1" class="field" onclick="fieldClick(1)"></button>
+
+        <button id="2" class="field" onclick="fieldClick(2)"></button>
+
+        <button id="3" class="field" onclick="fieldClick(3)"></button>
+
+      </div>
+
+      <div class="row">
+
+        <button id="4" class="field" onclick="fieldClick(4)"></button>
+
+        <button id="5" class="field" onclick="fieldClick(5)"></button>
+
+        <button id="6" class="field" onclick="fieldClick(6)"></button>
+
+      </div>
+
+      <div class="row">
+
+        <button id="7" class="field" onclick="fieldClick(7)"></button>
+
+        <button id="8" class="field" onclick="fieldClick(8)"></button>
+
+        <button id="9" class="field" onclick="fieldClick(9)"></button>
+
+      </div>
+    
+    </div>
+
+    <div id="end" class="end">
+
+      <h1>Fim de Jogo!</h1>
+      
+      <button class="menu-button" onclick="menu()">Voltar ao menu</button>
+
+    </div>
+
+  </body>
+
+</html>
+
+<script src="script.js"></script>

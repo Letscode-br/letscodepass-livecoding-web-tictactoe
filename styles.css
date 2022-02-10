@@ -1,0 +1,89 @@
+html {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e22;
+  color: #e1e1e1;
+  font-family: Montserrat, sans-serif;
+  font-weight: 100;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #f5b324;
+  font-family: Montserrat, sans-serif;
+  font-weight: 100;
+}
+
+div.game {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+button.field, button.menu-button {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  color: #e1e1e1;
+  font-weight: 100;
+  background-color: #404044;
+}
+
+button.field {
+  font-size: 80px;
+}
+
+button.menu-button {
+  width: 300px;
+  height: 80px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+button:hover {
+  filter: brightness(150%);
+  margin-top: 4px;
+}
+
+div.row {
+  display: flex;
+}
+
+p.turn {
+  opacity: 0;
+}
+
+div.end {
+  background-color: #1e1e22;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.menu-button-container {
+  background-color: #191919;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px 2px rgb(0, 0, 0, 0.1);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
